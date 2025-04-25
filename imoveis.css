@@ -1,0 +1,54 @@
+#imoveis {
+  padding: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 23%;
+  height: 50%;
+  border: 2px solid rgba(214, 214, 214);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: rgb(214, 214, 214);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.precotipo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.cardinfo p {
+  color: rgb(61, 61, 61);
+}
+
+.cardpricebox{
+    background-color: rgb(114, 147, 60);
+    padding: 5px 10px;
+    border-radius: 5px; 
+}
+
+.cardpricebox p{
+    color: white;
+
+}

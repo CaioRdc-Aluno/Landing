@@ -1,0 +1,84 @@
+.img-destaque {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0) 65%,
+      rgba(255, 255, 255, 0.855)
+    ),
+    url("img/casa.jpg");
+}
+
+.img-destaque p {
+  font-size: 20px;
+  max-width: 600px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.botoes {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  margin-top: 30px;
+  padding: 12px 25px;
+  background-color: #0b7435;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  transition: background 0.3s;
+  background-color: #13d460;
+}
+
+.titulo {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#titulo1 {
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#titulo2 {
+  color: rgb(54, 54, 54);
+}
+
+#titulo3 {
+  color: rgb(54, 54, 54);
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+#descricao {
+  width: 100%;
+  padding: 30px;
+}
+
+#descricao p {
+  margin-top: 20px;
+  color: rgb(53, 53, 53);
+  max-width: 500px;
+}
+
+#sobre {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#sobre img {
+  width: 50%;
+}
