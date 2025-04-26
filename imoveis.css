@@ -42,13 +42,41 @@
   color: rgb(61, 61, 61);
 }
 
-.cardpricebox{
-    background-color: rgb(114, 147, 60);
-    padding: 5px 10px;
-    border-radius: 5px; 
+.cardpricebox {
+  background-color: rgb(114, 147, 60);
+  padding: 5px 10px;
+  border-radius: 5px;
 }
 
-.cardpricebox p{
-    color: white;
+.cardpricebox p {
+  color: white;
+}
 
+/* Responsividade */
+@media (max-width: 900px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+}
+ 
+@media (max-width: 430px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-items: center;
+  }
+
+  .card {
+    width: 84%;
+    height: auto;
+  }
 }

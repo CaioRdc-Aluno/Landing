@@ -10,10 +10,10 @@
   color: white;
   padding: 20px;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0) 65%,
+      rgba(0, 0, 0, 0.5) 65%,
       rgba(255, 255, 255, 0.855)
     ),
-    url("img/casa.jpg");
+    url("casa.jpg");
 }
 
 .img-destaque p {
@@ -63,7 +63,6 @@ button:hover {
 }
 
 #descricao {
-  width: 100%;
   padding: 30px;
 }
 
@@ -74,6 +73,7 @@ button:hover {
 }
 
 #sobre {
+  justify-content: space-between;
   margin-top: 130px;
   display: flex;
   flex-direction: row;
@@ -81,4 +81,33 @@ button:hover {
 }
 #sobre img {
   width: 50%;
+}
+
+#linha-v {
+  display: none;
+
+}
+
+/*Responsividade*/
+
+@media (max-width: 900px) {
+  .img-destaque {
+    height: 75vh
+  }
+  #sobre {
+    margin-top: 80px;
+  }
+  #sobre img {
+    width: auto;
+    height: 300px;
+  }
+  .titulo {
+    font-size: 40px;
+  }
+  #linha-h {
+    display: none;
+  }
+  #linha-v {
+    display: flex;
+  }
 }

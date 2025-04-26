@@ -54,11 +54,15 @@ nav a:hover {
 
 /* Responsividade */
 
-@media (max-width: 834px) {
+@media (max-width: 900px) {
   .menu-icon {
     display: block;
   }
-  
+
+  header{
+    padding: 0px 2%;
+  }
+
   .menu ul {
     flex-direction: column;
     position: absolute;
@@ -72,7 +76,7 @@ nav a:hover {
     display: none;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
-  
+
   #menu-check:checked ~ .menu ul {
     display: flex;
   }
