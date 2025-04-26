@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-  transition: color 0.2s;
+  transition: color 0.3s;
   color: #11bd56;
 }
 
@@ -52,3 +52,28 @@ nav a:hover {
   cursor: pointer;
 }
 
+/* Responsividade */
+
+@media (max-width: 834px) {
+  .menu-icon {
+    display: block;
+  }
+  
+  .menu ul {
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    right: 0;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #f9f9f9;
+    width: 200px;
+    padding: 20px;
+    display: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #menu-check:checked ~ .menu ul {
+    display: flex;
+  }
+}
