@@ -5,11 +5,12 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
+body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background-image: url("img/background-login.png");
   background-position: center;
   background-size: cover;
 }
