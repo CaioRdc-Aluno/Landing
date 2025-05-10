@@ -10,7 +10,52 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("img/background-login.png");
+  background-image: url("../img/background-login.png");
   background-position: center;
   background-size: cover;
+}
+
+#container {
+  border: 2px solid rgba(50, 50, 50, 0.5);
+  border-radius: 10px;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  outline-color: rgba(7, 227, 84, 0.696);
+  outline-offset: 1px;
+  width: 100%;
+  padding: 2.5px;
+}
+
+#login-form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+#div-btn {
+  width: 70%;
+}
+button {
+  background-color: #0b7435;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: background 0.3s;
+  background-color: #13d460;
 }
