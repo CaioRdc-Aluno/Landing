@@ -8,17 +8,26 @@
   </head>
   <body>
     <section id="container">
+
       <div>
         <h1>Login</h1>
       </div>
+
       <form action="" id="login-form">
-        <div>
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" required />
+
+        <div class="div-input">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="Digite seu email" required />
         </div>
-        <div>
-          <label for="senha">Senha</label>
-          <input type="password" id="senha" required />
+
+        <div class="div-input">
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" placeholder="Digite sua senha" required />
+        </div>
+
+        <div class="div-input">
+            <label for="senha">Confirmar senha:</label>
+            <input type="password" id="senha" placeholder="Confirme sua senha" required/>
         </div>
 
         <button type="submit">Entrar</button>
