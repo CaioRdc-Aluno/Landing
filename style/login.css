@@ -23,7 +23,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 15px;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.075);
   padding: 20px;
   backdrop-filter: blur(3px);
 }
