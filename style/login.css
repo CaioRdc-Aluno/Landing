@@ -10,15 +10,15 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("../img/background-login.png");
+  background-image: url("../img/bg-login.jpg");
   background-position: center;
   background-size: cover;
 }
 
 #container {
-  border: 2px solid rgba(50, 50, 50, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.562);
   border-radius: 10px;
-  width: 50vh;
+  width: 58vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,12 +29,21 @@ body {
 }
 
 input {
-  border: none;
+  border: 1px solid rgb(231, 231, 231);
   border-radius: 5px;
-  outline-color: rgba(7, 227, 84, 0.696);
   outline-offset: 1px;
   width: 100%;
-  padding: 3.5px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.247);
+  outline: none;
+}
+
+input:focus{
+  border: 1px solid rgb(11, 192, 63);
+}
+
+::placeholder{
+  color:white;
 }
 
 #login-form {
@@ -50,18 +59,19 @@ input {
   justify-content: center;
 }
 button {
-  background-color: #0b7435;
+  background-color: rgba(72, 190, 4, 0.795);
   color: white;
-  font-size: 15px;
+  font-size: 17px;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
   width: 70%;
+  padding: 4px;
 }
 
 button:hover {
   transition: background 0.3s;
-  background-color: #13d460;
+  background-color: #13d460b6;
   transition: color 0.3s;
   color: #000000;
 }
@@ -74,7 +84,7 @@ button:hover {
 }
 
 #links a{
-  font-size: x-small;
+  font-size: 13px;
   color: #002a03;
 }
 #links a:hover{
