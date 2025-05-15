@@ -25,6 +25,7 @@ body {
   gap: 15px;
   background-color: transparent;
   padding: 20px;
+  backdrop-filter: blur(3px);
 }
 
 input {
@@ -33,7 +34,7 @@ input {
   outline-color: rgba(7, 227, 84, 0.696);
   outline-offset: 1px;
   width: 100%;
-  padding: 2.5px;
+  padding: 3.5px;
 }
 
 #login-form {
@@ -44,7 +45,9 @@ input {
 }
 
 #div-btn {
-  width: 70%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 button {
   background-color: #0b7435;
@@ -53,9 +56,33 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  width: 70%;
 }
 
 button:hover {
   transition: background 0.3s;
   background-color: #13d460;
+  transition: color 0.3s;
+  color: #000000;
+}
+
+#links{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+#links a{
+  font-size: x-small;
+  color: #002a03;
+}
+#links a:hover{
+  color: #049a2e;
+}
+
+.logo{
+  position: absolute;
+  top: 1%;
+  left: 1%;
 }

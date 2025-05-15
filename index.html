@@ -8,11 +8,18 @@
     <link rel="stylesheet" href="style/footer.css" />
     <link rel="stylesheet" href="style/headerBody.css" />
     <link rel="stylesheet" href="style/imoveis.css" />
+    <link
+      rel="shortcut icon"
+      src="img/icone-Alacasas-Tbg.png"
+      type="image/x-icon"
+    />
   </head>
   <body>
     <header>
       <div class="logo">
-        <img src="img/icone-Alacasas-Tbg.png" alt="Alacasas" />
+        <a href="index.html">
+          <img src="img/icone-Alacasas-Tbg.png" alt="Alacasas" />
+        </a>
       </div>
 
       <div>
@@ -20,16 +27,16 @@
         <label for="menu-check" class="menu-icon">&#9776;</label>
         <nav class="menu">
           <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="index.html">Imóveis</a></li>
-            <li><a href="index.html">Sobre</a></li>
-            <li><a href="index.html">Contato</a></li>
+            <li><a href="#img-destaque">Início</a></li>
+            <li><a href="#imoveis">Imóveis</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="#footer">Contato</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section class="img-destaque">
+    <section id="img-destaque">
       <h1 class="titulo" id="titulo1">Encontre o imóvel dos seus sonhos</h1>
       <p>
         O melhor do ramo da imobiliaria, venha encontrar seu lar do jeitinho
@@ -139,7 +146,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer id="footer">
       <div>
         <p>&copy; 2023 Alacasas. Todos os direitos reservados.</p>
         <p>Desenvolvido por Alacasas (Alambert e Caio R.)</p>
