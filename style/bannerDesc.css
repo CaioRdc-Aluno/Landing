@@ -9,11 +9,7 @@
   text-align: center;
   color: white;
   padding: 20px;
-  background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5) 65%,
-      rgba(255, 255, 255, 0.855)
-    ),
-    url("../img/casa.jpg");
+  background-image: url("../img/casa.jpg");
 }
 
 #img-destaque p {
@@ -28,13 +24,13 @@
 }
 
 button {
+    background-color: rgba(4, 121, 0, 0.620);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 30px;
   padding: 12px 25px;
-  background-color: #0b7435;
   color: white;
   font-size: 15px;
-  border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
 }
 button:hover {

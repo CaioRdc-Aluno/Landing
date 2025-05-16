@@ -5,11 +5,13 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
   background-image: url("../img/bg-login.jpg");
   background-position: center;
   background-size: cover;
@@ -18,16 +20,27 @@ body {
 #container {
   border: 2px solid rgba(255, 255, 255, 0.562);
   border-radius: 10px;
-  width: 58vh;
+  width: 580px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 15px;
   background-color: rgba(0, 0, 0, 0.075);
   padding: 20px;
   backdrop-filter: blur(4px);
 }
-
+#login-form {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.div-input{
+  width:100%;
+}
 input {
   color: white;
   border: 1px solid rgb(231, 231, 231);
@@ -39,35 +52,51 @@ input {
   outline: none;
 }
 
-input:focus{
+input:focus {
   border: 1px solid rgb(11, 192, 63);
 }
 
-::placeholder{
-  color:white;
-}
-
-#login-form {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-  width: 100%;
-}
-
-#div-btn {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-button {
-  background-color: rgba(72, 190, 4, 0.795);
+::placeholder {
   color: white;
+}
+
+.div-btn{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+button {
   font-size: 17px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   width: 70%;
   padding: 4px;
+}
+
+.alternativa {
+  text-align: center;
+  width: 70%;
+  padding: 4px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(72, 190, 4, 0.8);
+}
+
+.alternativa:hover{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  transition: background 0.3s;
+}
+
+.enter {
+  background-color: rgba(72, 190, 4, 0.8);
+  color: white;
 }
 
 button:hover {
@@ -77,22 +106,22 @@ button:hover {
   color: #000000;
 }
 
-#links{
+#links {
   display: flex;
   flex-direction: row;
   gap: 20px;
   justify-content: center;
 }
 
-#links a{
+#links a {
   font-size: 13px;
   color: #002a03;
 }
-#links a:hover{
+#links a:hover {
   color: #049a2e;
 }
 
-.logo{
+.logo {
   position: absolute;
   top: 1%;
   left: 1%;
