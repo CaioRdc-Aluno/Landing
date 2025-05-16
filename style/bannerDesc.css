@@ -24,7 +24,7 @@
 }
 
 button {
-    background-color: rgba(4, 121, 0, 0.620);
+  background-color: rgba(62, 163, 4, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.1);
   margin-top: 30px;
   padding: 12px 25px;
@@ -33,9 +33,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+
 button:hover {
   transition: background 0.3s;
-  background-color: #13d460;
+  background-color: #13d460b6;
+  transition: color 0.3s;
+  color: #000000;
 }
 
 .titulo {

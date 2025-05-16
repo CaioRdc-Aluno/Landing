@@ -60,6 +60,11 @@ input:focus {
   color: white;
 }
 
+.required{
+  color: #df1818;
+  display: none;
+}
+
 .div-btn{
   display: flex;
   align-items: center;
@@ -84,14 +89,13 @@ button {
   text-decoration: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.8);
-  color: rgb(72, 190, 4, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 .alternativa:hover{
-  background-color: rgba(0, 0, 0, 0.5);
-  color: rgb(255, 255, 255);
-  transition: background 0.3s;
+  background-color: rgba(44, 44, 44, 0.377);
+  transition: 0.3s;
 }
 
 .enter {
@@ -100,7 +104,7 @@ button {
 }
 
 button:hover {
-  transition: background 0.3s;
+  transition: 0.3s;
   background-color: #13d460b6;
   transition: color 0.3s;
   color: #000000;
