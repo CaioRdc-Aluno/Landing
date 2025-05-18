@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alacasas login</title>
-    <link rel="stylesheet" href="style/loginCadastro.css" />
-    <link rel="stylesheet" href="style/headerBody.css" />
+    <title>Alacasas cadastro</title>
+    <link rel="stylesheet" href="style-login/loginCadastro.css" />
+    <link rel="stylesheet" href="style-main/headerBody.css" />
     <link
       rel="shortcut icon"
       href="img/icone-Alacasas-Tbg.png"
@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="logo">
-      <a href="index.html">
+      <a href="landing.html">
         <img src="img/icone-Alacasas-Tbg.png" alt="Alacasas" />
       </a>
     </div>
@@ -22,20 +22,23 @@
     <section id="container">
         <h1 id="titulo">CADASTRE-SE</h1>
 
-      <form action="" id="login-form">
+      <form action="" id="form">
         <div class="div-input">
           <input type="email" name="email" id="email" placeholder="Email..." required/>
+          <span class="span" id="spanEmail">*Email já cadastrado*</span>
         </div>
 
         <div class="div-input">
           <input type="password" id="senha" placeholder="Crie uma senha..." required />
+          <span class="span" id="spanSenha">*Tamanho mínimo de 4 dígitos*</span>
         </div>
         <div class="div-input">
-          <input type="password" id="com-senha" placeholder="Confirme a senha..." required />
+          <input type="password" id="conSenha" placeholder="Confirme a senha..." required />
+          <span class="span" id="spanConSenha">*Senha diferente da primeira*</span>
         </div>
         <div class="div-btn">
           <button type="submit" class="enter">Entrar</button>
-         <a href="login.html" class="alternativa">Não tem conta? Crie uma</a>
+          <a href="login.html" class="alternativa">Já tem conta? Entre</a>
         </div>
       </form>
     </section>

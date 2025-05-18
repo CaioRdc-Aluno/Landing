@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alacasas login</title>
-    <link rel="stylesheet" href="style/loginCadastro.css" />
-    <link rel="stylesheet" href="style/headerBody.css" />
+    <link rel="stylesheet" href="style-login/loginCadastro.css" />
+    <link rel="stylesheet" href="style-main/headerBody.css" />
     <link
       rel="shortcut icon"
       href="img/icone-Alacasas-Tbg.png"
@@ -14,7 +14,7 @@
   </head>
   <body>
     <div class="logo">
-      <a href="index.html">
+      <a href="landing.html">
         <img src="img/icone-Alacasas-Tbg.png" alt="Alacasas" />
       </a>
     </div>
@@ -22,19 +22,19 @@
     <section id="container">
         <h1 id="titulo">LOGIN</h1>
 
-      <form action="" id="login-form">
+      <form action="" id="form">
         <div class="div-input">
           <input type="email" name="email" id="email" placeholder="Email..." required/>
-          <span class="required">*Tamanho mínimo de 5 dígitos*</span>
+          <span class="span" id="spanEmail">*Email ou senha icorretos*</span>
         </div>
 
         <div class="div-input">
           <input type="password" id="senha" placeholder="Senha..." required />
-          <span class="required">*Tamanho mínimo de 5 dígitos*</span>
+          <span class="span" id="spanSenha">*Senha incorreta*</span>
         </div>
         <div class="div-btn">
           <button type="submit" class="enter">Entrar</button>
-          <a href="cadastro.html" class="alternativa">Não tem conta? Crie uma</a>
+          <a href="cadastro.html" class="alternativa">Não tem uma conta? Cadastre-se!</a>
         </div>
       </form>
     </section>

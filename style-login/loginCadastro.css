@@ -29,8 +29,9 @@ body {
   background-color: rgba(0, 0, 0, 0.075);
   padding: 20px;
   backdrop-filter: blur(4px);
+  box-shadow: 4px 2px 9px 0px rgba(0, 0, 0, 0.3);
 }
-#login-form {
+#form {
   display: flex;
   gap: 20px;
   width: 100%;
@@ -39,8 +40,12 @@ body {
   flex-direction: column;
 }
 .div-input{
+  display: flex;
+  flex-direction: column;
   width:100%;
+  gap: 2px;
 }
+
 input {
   color: white;
   border: 1px solid rgb(231, 231, 231);
@@ -130,3 +135,13 @@ button:hover {
   top: 1%;
   left: 1%;
 }
+
+span{
+  color: #ff0000;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 5px;
+  padding: 1px;
+  width: fit-content;
+  display: none;
+}
+

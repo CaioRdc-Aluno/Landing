@@ -1,6 +1,7 @@
-#imoveis {
+.secao{
   padding: 30px;
 }
+
 
 .cards {
   display: flex;

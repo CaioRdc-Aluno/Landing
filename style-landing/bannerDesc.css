@@ -8,8 +8,7 @@
   background-position: center;
   text-align: center;
   color: white;
-  padding: 20px;
-  background-image: url("../img/casa.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.4) 80%, rgba(255, 255, 255, 1)),  url(../img/casa.jpg) ;
 }
 
 #img-destaque p {
