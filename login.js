@@ -1,11 +1,8 @@
-const senha = document.getElementById("senha");
-const email = document.getElementById("email");
-const loginForm = document.getElementById("login-form");
+// const email = document.querySelector('#email');
+// const senha = document.querySelector('#senha');
+// const form = document.querySelector('#form');
 
-loginForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (senha.value.length){
-    
-  }
+// form.addEventListener('submit', (e)=>{
+//     if(senha.value !== )
+// })
 
-});

@@ -4,7 +4,7 @@ const confirmar = document.querySelector('#conSenha');
 const form = document.querySelector('#form');
 
 form.addEventListener('submit', (e)=>{
-    if(senha.value.length < 4){
+    if(senha.value.length < 8){
         e.preventDefault();
 
         senha.style.borderColor = "red";
@@ -29,4 +29,3 @@ form.addEventListener('submit', (e)=>{
         
     }
 })
-
