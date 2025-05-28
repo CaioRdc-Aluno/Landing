@@ -5,14 +5,13 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   width: 100vw;
-  background-image: url("../img/bg-login.jpg");
+  background-image: url("../../img/bg-login.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -39,10 +38,10 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.div-input{
+.div-input {
   display: flex;
   flex-direction: column;
-  width:100%;
+  width: 90%;
   gap: 2px;
 }
 
@@ -65,12 +64,12 @@ input:focus {
   color: white;
 }
 
-.required{
+.required {
   color: #df1818;
   display: none;
 }
 
-.div-btn{
+.div-btn {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -98,7 +97,7 @@ button {
   color: rgb(255, 255, 255);
 }
 
-.alternativa:hover{
+.alternativa:hover {
   background-color: rgba(44, 44, 44, 0.377);
   transition: 0.3s;
 }
@@ -136,7 +135,7 @@ button:hover {
   left: 1%;
 }
 
-span{
+span {
   color: #ff0000;
   background-color: rgba(255, 255, 255, 0.55);
   border-radius: 5px;
@@ -144,4 +143,3 @@ span{
   width: fit-content;
   display: none;
 }
-
